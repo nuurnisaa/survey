@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+      </style>
+    <title>Survey Form HTML&CSS</title>
+</head>
+
+<body>
+  <div class="container">
+    
+    <div class="headerContainer">
+      <h1 class= "titleText">WebsiteTry Survey Form</h1>
+      <h2 class="subtitleText">I got nothing to show but thank you for your visit </h2>
+  </div>
+
+<class class="formContainer">
+  <div class="formItemContainer">
+  <label class="label">Full name:</label> 
+  <input class="input" placeholder="Enter your full name" type="text" required/> 
+</div>
+
+<div class="formItemContainer">
+  <label class="label">Age (Optional):</label>
+  <input class="input" placeholder="Enter your age" type="number"/> 
+</div>
+
+<div class="formItemContainer">
+  <label class="label">E-mail address:</label>
+  <input class="input" placeholder="Enter your E-mail address" type="email" required /> 
+</div>
+
+<div class="formItemContainer">
+  <label class="label">What I'm feeling today?</label>
+  <select class="Selection" >
+    <option disabled selected>Select your current feeling</option>
+    <option>Happy</option>
+    <option>Sad</option>
+    <option>Mixed</option>
+    <option>I don't know</option>
+  </select> 
+</div>
+
+
+<div class="formItemContainer">
+  <label class="label">What is your favorite things to do:</label>
+</div>
+<div>
+  <input class="input" type="radio" name="recommend" id="Reading book"/>
+  <label for="Reading book">Reading book</label>
+</div>
+<div>
+  <input class="input" type="radio" name="recommend" id="Sports"/>
+  <label for="Sports">Sports</label>
+</div>
+<div>
+  <input class="input" type="radio" name="recommend" id="Sleep"/>
+  <label for="Sleep">Sleep</label> 
+</div>
+
+<div class="formItemContainer">
+  <label class="label">What is my next plan? (Check all that apply)</label>
+  </div>
+  <div>
+    <input class="input" type="checkbox" name="improvement" id="Hiking"/>
+    <label for="Hiking">Hiking</label> 
+  </div>
+  <div>
+  <input class="input" type="checkbox" name="improvement" id="Food hunting"/>
+  <label for="Food hunting">Food hunting</label> 
+  </div>
+  <div>
+    <input class="input" type="checkbox" name="improvement" id="Shopping"/>
+    <label for="Shopping">Shopping</label> 
+</div>
+<div>
+  <input class="input" type="checkbox" name="improvement" id="Meeting friend"/>
+  <label for="Meeting friend">Meeting friend</label> 
+</div>
+<div>
+<input class="input" type="checkbox" name="improvement" id="Cook"/>
+<label for="Cook">Cook</label> 
+</div>
+<div>
+<input class="input" type="checkbox" name="improvement" id="Sight-seeing"/>
+<label for="Sight-seeing">Sight-seeing</label> 
+</div>
+<div>
+  <input class="input" type="checkbox" name="improvement" id="Sleep, again"/>
+  <label for="Sleep, again">Sleep, again.</label> 
+</div>
+
+<div class="formItemContainer">
+<label class="label">Any confession or comments:</label> 
+<textarea class="textarea" placeholder="Enter your confession or comments..." type="text" rows="5px"></textarea>
+</div>
+<button class="button">Submit</button>
+</div>
+</form>
+  </div>
+ 
+</body>
+</html>
